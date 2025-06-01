@@ -56,8 +56,10 @@ try {
 }
 
 Write-Host ""
-Type-Effect "All your memes are now property of Sachin Corporation 😂" Magenta
-Type-Effect "Just kidding! This was a PowerShell prank 😄" Green
+Type-Effect "All your files are encrypted now by Sachin Corporation or Black Hat Hackers 😂" Magenta
+Type-Effect "It is a Ransomeware attack on your system all files are encrypted !!!! 😄" Green
+Type-Effect "It is a Ransomeware attack on your system all files are encrypted !!!! 😄" Green
+Type-Effect "Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked !!!! 😄" Green
 
 Write-Host ""
 Write-Host "Press any key to exit..." -ForegroundColor DarkYellow
