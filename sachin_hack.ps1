@@ -1,8 +1,8 @@
 # Clear screen
 Clear-Host
 
-# Simulate typing function
-function Type-Effect($text, $color, $delay=100) {
+# Typing effect function
+function Type-Effect($text, $color="White", $delay=60) {
     foreach ($char in $text.ToCharArray()) {
         Write-Host -NoNewline $char -ForegroundColor $color
         Start-Sleep -Milliseconds $delay
@@ -10,32 +10,42 @@ function Type-Effect($text, $color, $delay=100) {
     Write-Host ""
 }
 
-# Fake hacking message
-Type-Effect "You are hacked!" Red 100
+# Fake loading effect
+function Fake-Loading($text, $color="Yellow", $dotCount=5) {
+    Type-Effect $text $color
+    for ($i = 0; $i -lt $dotCount; $i++) {
+        Write-Host -NoNewline "." -ForegroundColor $color
+        Start-Sleep -Milliseconds 400
+    }
+    Write-Host ""
+}
+
+# Begin prank
+Type-Effect "Initializing system breach..." Red
+Fake-Loading "Bypassing firewall"
+
+Type-Effect "Injecting payload..." DarkRed
+Fake-Loading "Establishing remote shell"
+
+Type-Effect "You are hacked!" Red 80
 Start-Sleep -Milliseconds 500
-Type-Effect "Sachin is here..." Green 100
+Type-Effect "Sachin is here 😎" Green 80
 Start-Sleep -Milliseconds 700
 
-# Get local IP
-$ip = (Get-NetIPAddress -AddressFamily IPv4 |
-       Where-Object {$_.InterfaceAlias -notmatch "Loopback"} |
-       Select-Object -First 1 -ExpandProperty IPAddress)
-
-# Get current username
+# Get system info
 $user = $env:USERNAME
-
-# Get system name
 $comp = $env:COMPUTERNAME
+$ip = (Get-NetIPAddress -AddressFamily IPv4 | Where-Object {$_.InterfaceAlias -notmatch "Loopback"} | Select-Object -First 1 -ExpandProperty IPAddress)
 
-# Display info
+# Display system info
 Write-Host ""
-Type-Effect "Fetching target info..." Yellow 75
+Type-Effect "Fetching target system details..." Yellow
 Start-Sleep -Milliseconds 1000
+
 Write-Host "User      : $user" -ForegroundColor Cyan
 Write-Host "System    : $comp" -ForegroundColor Cyan
 Write-Host "Local IP  : $ip" -ForegroundColor Cyan
 
-# Optionally fetch public IP and Geo Info
 try {
     $geo = Invoke-RestMethod "http://ip-api.com/json"
     Write-Host "Public IP : $($geo.query)" -ForegroundColor Cyan
@@ -46,5 +56,9 @@ try {
 }
 
 Write-Host ""
-Write-Host "Press any key to exit..." -ForegroundColor Magenta
-$x = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+Type-Effect "All your memes are now property of Sachin Corporation 😂" Magenta
+Type-Effect "Just kidding! This was a PowerShell prank 😄" Green
+
+Write-Host ""
+Write-Host "Press any key to exit..." -ForegroundColor DarkYellow
+$Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown") | Out-Null
