@@ -22,7 +22,7 @@ function Fake-Loading($text, $color="Yellow", $dotCount=5) {
 
 # Begin prank
 Type-Effect "Initializing system breach............." Red
-Fake-Loading "Bypassing firewall"
+Fake-Loading "Bypassing firewall...................." Cyan
 
 Type-Effect "Injecting payload................." DarkRed
 Fake-Loading "Establishing remote shell..............." Green
