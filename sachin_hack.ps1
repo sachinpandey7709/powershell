@@ -21,15 +21,15 @@ function Fake-Loading($text, $color="Yellow", $dotCount=5) {
 }
 
 # Begin prank
-Type-Effect "Initializing system breach..." Red
+Type-Effect "Initializing system breach............." Red
 Fake-Loading "Bypassing firewall"
 
-Type-Effect "Injecting payload..." DarkRed
-Fake-Loading "Establishing remote shell"
+Type-Effect "Injecting payload................." DarkRed
+Fake-Loading "Establishing remote shell..............." Green
 
 Type-Effect "You are hacked!" Red 80
 Start-Sleep -Milliseconds 500
-Type-Effect "Sachin is here 😎" Green 80
+Type-Effect "Black Hat Hacker is here 😎" Green 80
 Start-Sleep -Milliseconds 700
 
 # Get system info
@@ -39,7 +39,7 @@ $ip = (Get-NetIPAddress -AddressFamily IPv4 | Where-Object {$_.InterfaceAlias -n
 
 # Display system info
 Write-Host ""
-Type-Effect "Fetching target system details..." Yellow
+Type-Effect "Fetching target system details.................." Yellow
 Start-Sleep -Milliseconds 1000
 
 Write-Host "User      : $user" -ForegroundColor Cyan
@@ -60,7 +60,6 @@ Type-Effect "All your files are encrypted now by Sachin Corporation or Black Hat
 Type-Effect "It is a Ransomeware attack on your system all files are encrypted !!!! 😄" Green
 Type-Effect "It is a Ransomeware attack on your system all files are encrypted !!!! 😄" Green
 Type-Effect "Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked !!!! 😄" Green
-Type-Effect "सचिन कुमार पाण्डेय तुम अपने आप को बहुत हुशियार समजहते हो ना अब लगाओ दिम्माग पकड़ सकते हो तो पकड़ के दिखाओ !!!! 😄" Green
 
 Write-Host ""
 Write-Host "Press any key to exit..." -ForegroundColor DarkYellow
