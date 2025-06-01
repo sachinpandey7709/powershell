@@ -60,6 +60,7 @@ Type-Effect "All your files are encrypted now by Sachin Corporation or Black Hat
 Type-Effect "It is a Ransomeware attack on your system all files are encrypted !!!! 😄" Green
 Type-Effect "It is a Ransomeware attack on your system all files are encrypted !!!! 😄" Green
 Type-Effect "Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked !!!! 😄" Green
+Type-Effect "सचिन कुमार पाण्डेय तुम अपने आप को बहुत हुशियार समजहते हो ना अब लगाओ दिम्माग पकड़ सकते हो तो पकड़ के दिखाओ !!!! 😄" Green
 
 Write-Host ""
 Write-Host "Press any key to exit..." -ForegroundColor DarkYellow
