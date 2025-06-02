@@ -64,7 +64,7 @@ Type-Effect "Sachin is here !!!! 😄" Yellow
 Type-Effect "Black hat hacker !!!! 😄" DarkGreen
 Type-Effect "Cybersecurity Expert !!!! 😄" DarkRed
 Type-Effect "Your Computer is Compromised !!!! 😄" Cyan
-Type-Effect "Call me right now !!!! 😄" Cyan
+Type-Effect "Call me right now !!!! 😄" DarkRed
 Type-Effect "Thank You !!!! 😄" DarkGreen
 
 Write-Host ""
