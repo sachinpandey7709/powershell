@@ -63,7 +63,7 @@ Type-Effect "Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hack
 Type-Effect "Cybersecurity Expert !!!! 😄" DarkGreen
 Type-Effect "Black Hat Hacker !!!! 😄" DarkGreen
 Type-Effect "Your Computer is Compromised !!!! 😄" Yellow
-Type-Effect "Call me right now !!!! 😄" Cyan
+Type-Effect "Call me right now !!!! 😄" DarkRed
 Type-Effect "Thank You !!!! 😄" DarkRed
 
 Write-Host ""
