@@ -1,0 +1,7 @@
+Write-host "Hello Papa"
+Write-host "You are Hacked"
+Write-host "Sachin is here"
+Write-host "Call me right now"
+Write-host "Phone number is 1234567890"
+Write-host "Your Computer is Compromised"
+Write-host "It is only for Educational Purposes"
