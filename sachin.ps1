@@ -59,13 +59,13 @@ Write-Host ""
 Type-Effect "Hello Papa !!!! 😂" Magenta
 Type-Effect "You are Hacked !!!! 😄" Green
 Type-Effect "It is a Ransomeware attack on your system all files are encrypted !!!! 😄" DarkRed
-Type-Effect "Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked !!!! 😄" Cyan
-Type-Effect "Sachin is here !!!! 😄" Yellow
+Type-Effect "Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked !!!! 😄" DarkGreen
+Type-Effect "Your Computer is Compromised !!!! 😄" DarkGreen
+Type-Effect "Sachin is here !!!! 😄" DarkRed
 Type-Effect "Black hat hacker !!!! 😄" DarkGreen
 Type-Effect "Cybersecurity Expert !!!! 😄" DarkRed
 Type-Effect "Call me right now !!!! 😄" Cyan
 Type-Effect "Thank You !!!! 😄" DarkGreen
-Type-Effect "Your Computer is Compromised !!!! 😄" Cyan
 
 Write-Host ""
 Write-Host "Press any key to exit..." -ForegroundColor DarkYellow
