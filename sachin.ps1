@@ -62,6 +62,9 @@ Type-Effect "It is a Ransomeware attack on your system all files are encrypted !
 Type-Effect "Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked Hacked !!!! 😄" Cyan
 Type-Effect "Sachin is here !!!! 😄" Yellow
 Type-Effect "Black hat hacker !!!! 😄" DarkGreen
+Type-Effect "Cybersecurity Expert !!!! 😄" DarkRed
+Type-Effect "Call me right now !!!! 😄" Cyan
+Type-Effect "Thank You !!!! 😄" DarkGreen
 Type-Effect "Your Computer is Compromised !!!! 😄" Cyan
 
 Write-Host ""
