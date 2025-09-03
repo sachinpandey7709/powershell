@@ -23,7 +23,7 @@ The author is **not responsible** for any misuse. Please run them **only on syst
 👉 To use any PowerShell script from this repo, simply open PowerShell and run it using:
 ```Command
  iwr -useb "https://raw.githubusercontent.com/sachinpandey7709/powershell/refs/heads/main/Threatlocker.ps1" | iex
-
+```
 
 ## 🔧 Installation
 
