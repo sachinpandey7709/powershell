@@ -22,5 +22,5 @@ The author is **not responsible** for any misuse. Please run them **only on syst
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/<your-username>/powershell-scripts.git
-   cd powershell-scripts
+   git clone https://github.com/sachinpandey7709/powershell.git
+   cd powershell
